@@ -2,7 +2,7 @@
 // festa del grande Gatsby.
 // Chiedi all'utente il suo nome e comunicagli se può partecipare o no alla festa
 
-var invitato = prompt('Inserisci il tuo nome').value;
+var invitato = prompt('Inserisci il tuo nome');
 
 
 const list = ['Giacomo', 'Salvatore', 'Corrado', 'Carmelo', 'Ginevra', 'Susanna'];
@@ -12,7 +12,7 @@ let canAccess = false;
 for (i = 0; i < list.length; i++) {
     var control = list[i];
 
-    if (control === list.value) {
+    if (control === invitato) {
 
 
         canAccess = true;
