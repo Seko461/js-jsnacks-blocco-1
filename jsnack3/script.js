@@ -8,15 +8,15 @@ for (let i = 0; i < 10; i++) {
 console.log('la somma di tutti i numeri è ' + somma);
 
 
-let i = 0;
+// let i = 0;
 
-while (i < 10) {
-    let number = prompt('inserisci un numero');
-    let realNumber = parseInt(number);
-    somma += realNumber;
+// while (i < 10) {
+//     let number = prompt('inserisci un numero');
+//     let realNumber = parseInt(number);
+//     somma += realNumber;
 
-    i++
-}
+//     i++
+// }
 
-console.log('la somma di tutti i numeri è ' + somma);
+// console.log('la somma di tutti i numeri è ' + somma);
 
